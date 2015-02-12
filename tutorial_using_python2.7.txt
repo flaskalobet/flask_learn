@@ -1,0 +1,6 @@
+Install scl on centos
+1.  yum install centos-release-SCL
+1.  yum install python27
+step to use python 2.7
+1.  scl enable python27 bash
+2.  python2.7 -V
