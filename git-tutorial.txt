@@ -1,8 +1,8 @@
 git config user name for repo
-Syntax: git config --global user.name "flaskalobet"
+Syntax: git config user.name "flaskalobet"
 
 git config user email for repo
-Syntax: git config --global user.email "flask.alobet@gmail.com"
+Syntax: git config user.email "flask.alobet@gmail.com"
 
 git change remote url to use git push command
 Syntax: git remote set-url origin https://flaskalobet@github.com/flaskalobet/flask_learn
@@ -17,5 +17,5 @@ directory git config for repo
 .git/config
 
 git config proxy:
-    1.  git config --global http.proxy http://210.245.31.7:80
-    2.  git config --global https.proxy http://210.245.31.7:80
+    1.  git config --global http.proxy http://proxy:port
+    2.  git config --global https.proxy http://proxy:port
