@@ -19,3 +19,9 @@ directory git config for repo
 git config proxy:
     1.  git config --global http.proxy http://proxy:port
     2.  git config --global https.proxy http://proxy:port
+
+use git tag to release version:
+    1.  git tag -a v1.4 -m 'my version 1.4' - create a tag of git
+        1.1 list tag: git tag
+    2.  git push origin v1.4 - push github server create tag
+        2.1 check www.github.com/abc/repo to see the release
